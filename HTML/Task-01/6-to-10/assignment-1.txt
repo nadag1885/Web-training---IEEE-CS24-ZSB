@@ -1,0 +1,84 @@
+assignment 1
+
+ما هو ال السطر الذي يتم كتابته لتخبر المتصفح أن إصدار اللغة المستخدم في إنشاء الصفحة هو HTML5 ؟
+==>    <!DOCTYPE html>
+
+
+
+ما هو ال Rendering Mode الذي سوف يتبعه المتصفح إذا لم تكتب السطر الخاص بتحديد الإصدار ؟
+
+
+
+هل من السليم إستخدام أكثر من h1 في الصفحة جاوب بنعم أو لا ؟
+لا
+
+
+
+لديك عنصر يحتوي على بيانات المنتج وعنوان المنتج مكتوب ب h3 هل من المنطقي وضع عنوان h2 داخل نفس المنتج أم لا؟
+لا
+
+
+
+إلى ماذا ترمز العناصر h1, h2, h3, h4, h5, h6
+
+
+
+
+assignment 2
+
+هل هناك إختلاف بين هذه العناصر عندما يتم إظهارهم في الصفحة أم لا ؟
+        <p class="element">Welcome To The New World</p>
+        <p class='element'>Welcome To The New World</p>
+        <p class=element>Welcome To The New World</p>
+
+        لا
+
+
+
+
+assignment 3
+
+    هل هناك إختلاف بين هذه العناصر عندما يتم إظهارهم في الصفحة أم لا ؟    
+    <p class=element hidden>Welcome To The New World</p>
+    <p class="element" hidden>Welcome To The New World</p>
+
+    لا
+
+
+
+assignment 4
+
+    هل هذه العناصر سوف تظهر كلها بنفس الشكل أم لا ؟
+    <p>Hello World</p>
+
+<p>
+Hello World
+</p>
+
+<p>
+Hello
+World
+</p>
+
+<p>
+Hello
+
+
+World
+</p>
+
+
+نعم
+
+
+
+assignment 5
+بجانب كل Attribute من الموجودين في المثال قم بكتابة هل هو من ال Global Attribute أم لا ؟
+title   ==> 
+href
+src
+hidden   ==> Global
+charset
+class  ==> Global
+id   ==> Global
+type
