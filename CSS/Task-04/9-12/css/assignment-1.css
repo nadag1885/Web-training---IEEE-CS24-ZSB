@@ -1,0 +1,23 @@
+div{
+    background-color: #eee;
+    outline-width: 5px;
+    outline-color: black;
+    outline-style: solid;
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    border-width: 5px;
+
+}
+.one{
+    border-color: red;
+    border-style: solid ;
+}
+.two{
+    border-color: green blue;
+    border-style: solid;
+}
+.three{
+    border-color: red green blue yellow;
+    border-style: dashed;
+}

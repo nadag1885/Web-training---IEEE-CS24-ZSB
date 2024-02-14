@@ -1,8 +1,9 @@
 div{
+    margin: 10px;
     width: 400px;
     height: 400px;
     color: white;
-    background-color: gainsboro;
+    background-color: #EEE;
 }
 .assign-4-shape-1{
     background-image: url(../images/css-assignment-5-8.png);
