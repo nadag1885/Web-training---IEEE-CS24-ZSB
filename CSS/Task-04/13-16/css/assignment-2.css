@@ -1,0 +1,10 @@
+div{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(177, 31, 31);
+    color: white;
+    width: fit-content;
+    max-width: 400px;
+    overflow: hidden;
+    max-height: 25px;
+}
