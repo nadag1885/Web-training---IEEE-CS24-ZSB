@@ -1,0 +1,22 @@
+
+div{
+    font-size: 50px;          
+    text-transform: capitalize;
+    text-align: center;
+
+
+}
+.one{
+    font-family: "Open Sans" , sans-serif;
+    font-weight: 300 ;
+    font-style: italic;
+    
+}
+.two{
+    font-family: 'cairo', sans-serif;
+    font-weight: 700;
+} 
+.three{
+    font-family: 'Jomhuria',sans-serif;
+    font-weight: 400;
+}
