@@ -1,0 +1,38 @@
+table{
+    width: 700px;
+    margin: 50px auto;
+    border-spacing: 1px;
+    text-align: center;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table thead td{
+    padding: 20px;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+}
+table tbody td{
+    padding: 20px;
+    background-color: #eee;
+}
+.view{
+    background-color: #03a9f4;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+.del{
+    background-color: #e91e63;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+img{
+    width: 70px;
+}

@@ -1,0 +1,33 @@
+.parent{
+    width: 400px;
+    margin: 50px auto;
+}
+.html,
+.css,
+.js{
+    background-color: #eee;
+    margin-bottom: 20px;
+    padding: 10px;
+    list-style: none;
+}
+.html ol,
+.css ol{
+    margin: 10px;
+    padding-left: 10px;
+}
+.html ol li,
+.css ol li{
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.js ul{
+    padding-left: 0;
+}
+.js ul li{
+    margin: 10px 0;
+    background-color: white;
+    padding: 5px;
+    list-style-position: inside;
+}
