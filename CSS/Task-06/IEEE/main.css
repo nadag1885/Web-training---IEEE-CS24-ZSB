@@ -1,0 +1,191 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    
+}
+img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+    color: #00cbff;
+    position: absolute;
+    top: 0;
+    margin: 10px;
+}
+ul{
+    position: absolute;
+    float: left;
+    right: 0;
+    top: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 3px;
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: white;
+    font-size: 16px;
+
+}
+.home{
+    color: #00cbff;
+}
+a:hover{
+    color: #00cbff;
+}
+.hello{ 
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hello h2{
+    color: #00cbff;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.hello p{
+    color: white;
+    margin: -20px;
+}  
+.skills{ 
+    margin: 50px auto;
+    width: 500px;
+}
+.our-skills div{
+    text-transform: uppercase;
+    text-align: center;
+}
+.our-skills p{
+    color: #ddd;
+    text-align: center;
+}
+.adobe div{
+    background-color: #00cbff;  
+    border-right: #ddd solid 20px;
+    height: 30px;
+    margin-top: -10px;
+}
+.html div{
+    background-color: #00cbff;  
+    border-right: #ddd solid 28px;
+    height: 30px;
+    margin-top: -10px;
+
+}
+.javascript div{
+    background-color: #00cbff;  
+    border-right: #ddd solid 60px;
+    height: 30px;
+    margin-top: -10px;
+
+}
+.php div{
+    background-color: #00cbff;  
+    border-right: #ddd solid 52px;
+    height: 30px;
+    margin-top: -10px;
+
+}
+h3{  
+    margin-left: 5px;
+}   
+.adobe div::before{
+    content: "";
+    position: relative;
+    border: 5px solid; 
+    border-color: black transparent transparent  transparent;
+    left: 99%;
+    top: -3px;
+} 
+.adobe div::after{
+    content: "95%";
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    width: 20px;
+    height: 10px;
+    padding: 3px;
+    position: relative;
+    left: 95.5%;
+    top: -28px;
+}
+
+.html div::before{
+    content: "";
+    position: relative;
+    border: 5px solid; 
+    border-color: black transparent transparent  transparent;
+    left: 99%;
+    top: -3px;
+} 
+.html div::after{
+    content: "93%";
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    width: 20px;
+    height: 10px;
+    padding: 3px;
+    position: relative;
+    left: 95.5%;
+    top: -28px;
+}
+.javascript div::before{
+    content: "";
+    position: relative;
+    border: 5px solid; 
+    border-color: black transparent transparent  transparent;
+    left: 99%;
+    top: -3px;
+} 
+.javascript div::after{
+    content: "85%";
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    width: 20px;
+    height: 10px;
+    padding: 3px;
+    position: relative;
+    left: 95.5%;
+    top: -28px;
+}
+
+.php div::before{
+    content: "";
+    position: relative;
+    border: 5px solid; 
+    border-color: black transparent transparent  transparent;
+    left: 99%;
+    top: -3px;
+} 
+.php div::after{
+    content: "87%";
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    width: 20px;
+    height: 10px;
+    padding: 3px;
+    position: relative;
+    left: 95.5%;
+    top: -28px;
+}
