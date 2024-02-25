@@ -1,0 +1,14 @@
+div{
+    background-color: #ddd;
+    text-transform: capitalize;
+    padding: 20px;
+    width: fit-content;
+    margin: 50px auto;
+}
+div::first-letter{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin-left: -35px;
+    font-weight: bold;
+}
