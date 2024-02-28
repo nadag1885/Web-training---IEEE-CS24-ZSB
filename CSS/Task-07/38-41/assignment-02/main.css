@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 12% 50% 12% 50%;
+    -webkit-border-radius: 12% 50% 12% 50%;
+    -moz-border-radius: 12% 50% 12% 50%;
+    -ms-border-radius: 12% 50% 12% 50%;
+    -o-border-radius: 12% 50% 12% 50%;
+    box-shadow: 0px 0px 10px black inset;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}

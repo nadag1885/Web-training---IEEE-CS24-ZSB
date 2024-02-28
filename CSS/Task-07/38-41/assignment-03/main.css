@@ -1,0 +1,112 @@
+.parent{
+    width: 550px;
+    margin: 50px auto;
+}
+
+.basic{
+    background-color: #eee;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    float: left;
+}
+.pro {
+    background-color: #eee;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    float: right;
+}
+
+.basic::after{
+    content: "Basic";
+    width: 175px;
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    line-height: 20px;
+    font-size: 20px;
+    left: calc(50% - 97px);
+    top: 5%;
+}
+.pro::after{
+    content: "Pro";
+    width: 175px;
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    line-height: 20px;
+    font-size: 20px;
+    left: calc(50% - 97px);
+    top: 5%;
+}
+
+.basic::before{
+    content: "free";
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    background-color: #ddd;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    left: calc(50% - 100px);
+    top: 29%;
+    border-radius: 50% 50%;
+}
+.pro::before{
+    content: "$30";
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    background-color: #ddd;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    left: calc(50% - 100px);
+    top: 29%;
+    border-radius: 50% 50%;
+}
+.line{
+    height: 300px;
+    width: 2px;
+    background-color: #2196f3;
+    position: absolute;
+    left: 50%;
+
+}
+.line::after{
+    content: "Or";
+    background-color: #2196f3;
+    position: relative;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+    left: -15px;
+    top: 50%;
+}

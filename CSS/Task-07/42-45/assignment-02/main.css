@@ -1,0 +1,33 @@
+
+  /*  
+  div::before {
+    content: "Elzero";
+    display: block;
+    position: inherit;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    background-color: #eee;
+  } */
+
+div{
+    color: black !important;
+    width: 100px;
+    background-color: #eee !important;
+    border: none !important;
+    font-size: 10px !important;
+    text-align: center;
+
+    width: 200px;
+}
+div::after{
+    content: "Elzero";
+    position: absolute;
+    background-color: #eee !important;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    left: 80px;
+    top: 15px;
+}
