@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #eee;
+    box-shadow: 5px 0px 0px 0px #ff5722 , -5px 0px 0px 0px #03a9f4;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    color: #ff5722;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+align-items: center;}
