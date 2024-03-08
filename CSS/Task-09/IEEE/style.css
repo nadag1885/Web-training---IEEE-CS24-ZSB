@@ -1,0 +1,29 @@
+.content{
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+    justify-content: space-evenly;
+    margin: 80px auto;
+    align-content: center;
+    text-align: center;
+}
+
+.content p{
+    width: 200px;
+    font-size: 10px;
+    color: #91939e;
+    margin-top: -10px;
+}
+
+.content i{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    color: #5601f9;
+    background-color: #eef0ff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
