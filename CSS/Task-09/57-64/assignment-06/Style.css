@@ -1,0 +1,93 @@
+
+
+.employee{
+    width: 800px;
+    padding: 30px;
+    display: grid;
+    background-color: #eee;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, auto);
+    gap: 10px 10px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.employee div{
+    background-color: white;
+    padding: 5px; 
+} 
+.osama{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.ahmed{
+    grid-row: span 2;
+} 
+.shady{ 
+    grid-row: span 6;
+}
+.moibrahim{
+    grid-row: span 4;
+}
+.mahmoud{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.ezz{ 
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.name{
+    font-weight: bold;
+}
+.job{
+    font-weight: bold;
+    color: #a8a8ab !important;
+    margin-top: -10px;
+}
+.disc{
+    font-weight: bold;
+}
+.osama,
+.ahmed,
+.shady,
+.moibrahim,
+.mahmoud,
+.ezz,
+.mosayed,
+.ibrahim,
+.gamal,
+.eman{
+    border-bottom: 3px solid #ff3d00;
+    position: relative;
+}    
+.osama::after,
+.ahmed::after,
+.shady::after,
+.moibrahim::after,
+.mahmoud::after,
+.ezz::after,
+.mosayed::after,
+.ibrahim::after,
+.gamal::after,
+.eman::after{ 
+    content: "''";
+    position:static;
+    font-size: 60px;
+    color: #b3b3b3;
+    transform: rotate(13deg);
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+}
+.mahmoud div,
+.shady div,
+.ibrahim div{
+    background-color: black ;
+    color: white;
+}
+.mahmoud ,
+.shady ,
+.ibrahim {
+    background-color: black !important;
+}

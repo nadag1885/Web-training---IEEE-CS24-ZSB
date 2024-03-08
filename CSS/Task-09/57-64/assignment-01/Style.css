@@ -1,0 +1,24 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    counter-increment: count;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 10% 90%;
+    gap: 10px 10px;
+    
+}
+.grid div{
+    background-color: #607d8b;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grid div::after{
+    content: "Element " counter(count);
+    counter-increment: count; 
+    color: white;     
+    
+}
