@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.arrow {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 30px auto;
+    width: 300px;
+    height: 60px;
+    position: relative;
+}
+.arrow::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-color: transparent transparent  #ddd transparent;
+    position: absolute;
+    display: block;
+
+}
+.top::after {
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.right::after {
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%) rotate(90deg);
+}
+.bottom::after {
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    -webkit-transform: translateX(-50%) rotate(180deg);
+    -moz-transform: translateX(-50%) rotate(180deg);
+    -ms-transform: translateX(-50%) rotate(180deg);
+    -o-transform: translateX(-50%) rotate(180deg);
+}
+.left::after {
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
+}
