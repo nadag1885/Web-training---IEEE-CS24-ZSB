@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.parent > div {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.parent div div{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+    .parent > div{
+        width: 100%;
+    }
+    
+}
+
+
+/* Medium Screens */
+@media (min-width: 450px) {
+    .parent > div{
+        width: calc(50% - 5px);
+    }
+    .parent div div{
+        color: red;
+    }
+}
+
+/* Large Screens */
+@media (min-width: 600px) {
+    .parent > div{
+        width: calc(25% - 5px);
+    }
+    .parent div div{
+        color: #1ba094;
+    }
+}
