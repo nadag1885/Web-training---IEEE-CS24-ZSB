@@ -127,6 +127,7 @@ header {
 .sec-3 ul li.active {
     background-color: #ff3150;
     color: #ffcc00;
+    cursor : pointer
 }
 
 
